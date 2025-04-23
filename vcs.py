@@ -12,6 +12,8 @@ import stat
 import hashlib
 from dotenv import load_dotenv
 
+load_dotenv()
+
 config_path = "commit_config.json"
 
 NEO4J_URI = os.getenv("NEO4J_URI")
